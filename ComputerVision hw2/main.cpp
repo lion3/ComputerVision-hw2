@@ -8,7 +8,6 @@ using namespace std;
 
 int main()
 {
-	cout << "hello world" << endl;
 	string filePath = "C:\\Users\\xusy\\Downloads\\Ex2+-+Canny\\Ex2 - Canny\\test_Data\\lena.bmp"; // Filepath of input image
 	canny cny(filePath);
 	//cny.setThreshold(5, 40);
